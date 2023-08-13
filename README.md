@@ -8,17 +8,17 @@
 
 1.首页
 
-![首页.jpg](https://img1.imgtp.com/2023/08/13/yhhXYCNo.jpg)
+![首页.png](https://img1.imgtp.com/2023/08/13/niqSYtO9.png)
 
 2.商品列表（特定类型商品、推荐商品）
 
-![特定类型商品列表.jpg](https://img1.imgtp.com/2023/08/13/e0GORUib.jpg)
+![特定类型商品.png](https://img1.imgtp.com/2023/08/13/UrlsbgIy.png)
 
-![推荐商品列表.jpg](https://img1.imgtp.com/2023/08/13/XNjxiTOk.jpg)
+![推荐商品.png](https://img1.imgtp.com/2023/08/13/1MFPVokA.png)
 
 3.商品搜索
 
-![商品搜索.jpg](https://img1.imgtp.com/2023/08/13/miD8HoCx.jpg)
+![商品搜索.png](https://img1.imgtp.com/2023/08/13/AN6bBb6c.png)
 
 4.商品详情页
 
@@ -27,4 +27,4 @@
 
 5.商品分页
 
-![商品分页效果.jpg](https://img1.imgtp.com/2023/08/13/AIqw00de.jpg)
+![分页.png](https://img1.imgtp.com/2023/08/13/HFgcfz1d.png)
