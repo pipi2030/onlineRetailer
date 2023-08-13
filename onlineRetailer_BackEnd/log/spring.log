@@ -1,0 +1,447 @@
+2023-06-01 08:26:43.603  INFO 24176 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 24176 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 08:26:43.614  INFO 24176 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 08:26:43.691  INFO 24176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 08:26:43.692  INFO 24176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 08:26:44.923  INFO 24176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 08:26:44.934  INFO 24176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 08:26:44.935  INFO 24176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 08:26:44.938  INFO 24176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 08:26:44.938  INFO 24176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 08:26:44.938  INFO 24176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 08:26:44.943  INFO 24176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 08:26:45.037  INFO 24176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 08:26:45.038  INFO 24176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2023-06-01 08:26:46.650  WARN 24176 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 08:26:46.817  WARN 24176 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 08:26:46.979  INFO 24176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 08:26:47.266  INFO 24176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 08:26:47.307  INFO 24176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 08:26:47.319  INFO 24176 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 4.225 seconds (JVM running for 6.236)
+2023-06-01 08:26:58.269  INFO 24176 --- [http-nio-8890-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 08:26:58.269  INFO 24176 --- [http-nio-8890-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 08:26:58.278  INFO 24176 --- [http-nio-8890-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-06-01 09:08:35.050  INFO 24176 --- [http-nio-8890-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 09:08:35.203  INFO 24176 --- [http-nio-8890-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 09:12:41.577  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 3764 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 09:12:41.581  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 09:12:41.648  INFO 3764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 09:12:41.648  INFO 3764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 09:12:42.714  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 09:12:42.722  INFO 3764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 09:12:42.722  INFO 3764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 09:12:42.724  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 09:12:42.724  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 09:12:42.725  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 09:12:42.728  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 09:12:42.804  INFO 3764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 09:12:42.805  INFO 3764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2023-06-01 09:12:44.279  WARN 3764 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 09:12:44.436  WARN 3764 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 09:12:44.586  INFO 3764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 09:12:44.827  INFO 3764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 09:12:44.864  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 09:12:44.876  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 3.73 seconds (JVM running for 5.448)
+2023-06-01 09:12:54.527  INFO 3764 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-01 09:12:57.812  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 3764 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 09:12:57.813  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 09:12:58.001  WARN 3764 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neutech.mapper]' package. Please check your configuration.
+2023-06-01 09:12:58.052  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 09:12:58.053  INFO 3764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 09:12:58.054  INFO 3764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 09:12:58.054  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 09:12:58.054  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 09:12:58.055  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 09:12:58.055  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 09:12:58.089  INFO 3764 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-01 09:12:58.089  INFO 3764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 272 ms
+2023-06-01 09:12:58.164  INFO 3764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 09:12:58.966  INFO 3764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 09:12:58.976  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 09:12:58.979  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 1.197 seconds (JVM running for 19.551)
+2023-06-01 09:12:58.981  INFO 3764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-01 09:13:29.443  INFO 3764 --- [http-nio-8890-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 09:13:29.444  INFO 3764 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 09:13:29.451  INFO 3764 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-06-01 09:18:59.608  INFO 3764 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-01 09:18:59.748  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 3764 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 09:18:59.749  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 09:18:59.971  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 09:18:59.972  INFO 3764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 09:18:59.972  INFO 3764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 09:18:59.972  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 09:18:59.973  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 09:18:59.973  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 09:18:59.973  INFO 3764 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 09:18:59.991  INFO 3764 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-01 09:18:59.991  INFO 3764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 240 ms
+2023-06-01 09:19:00.639  WARN 3764 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 09:19:00.669  WARN 3764 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 09:19:00.719  INFO 3764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 09:19:00.762  INFO 3764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 09:19:00.772  INFO 3764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 09:19:00.776  INFO 3764 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 1.05 seconds (JVM running for 381.347)
+2023-06-01 09:19:00.777  INFO 3764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-01 09:19:38.830  INFO 3764 --- [http-nio-8890-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 09:19:38.831  INFO 3764 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 09:19:38.836  INFO 3764 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-01 09:48:16.988  INFO 3764 --- [http-nio-8890-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 09:48:17.105  INFO 3764 --- [http-nio-8890-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 09:50:53.844  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17174f0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.846  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6290351f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.848  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f52696e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.849  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3579f030 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.850  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51689276 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.852  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32336d89 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.853  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ef66bb8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.855  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14f4fe26 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.856  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11a25ec (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 09:50:53.857  WARN 3764 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28ec5f63 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:38:27.190  INFO 21696 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 21696 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 15:38:27.193  INFO 21696 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 15:38:27.237  INFO 21696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 15:38:27.238  INFO 21696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 15:38:28.084  INFO 21696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 15:38:28.089  INFO 21696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 15:38:28.090  INFO 21696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 15:38:28.091  INFO 21696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 15:38:28.091  INFO 21696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 15:38:28.091  INFO 21696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 15:38:28.094  INFO 21696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 15:38:28.149  INFO 21696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 15:38:28.149  INFO 21696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2023-06-01 15:38:29.226  WARN 21696 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 15:38:29.328  WARN 21696 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 15:38:29.424  INFO 21696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 15:38:29.610  INFO 21696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 15:38:29.634  INFO 21696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 15:38:29.641  INFO 21696 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 2.779 seconds (JVM running for 4.199)
+2023-06-01 15:43:14.409  INFO 21696 --- [http-nio-8890-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 15:43:14.409  INFO 21696 --- [http-nio-8890-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 15:43:14.414  INFO 21696 --- [http-nio-8890-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-01 15:46:02.994  INFO 21696 --- [http-nio-8890-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 15:46:03.093  INFO 21696 --- [http-nio-8890-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 15:56:01.275  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c9516ed (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.278  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@436d1a35 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.279  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b322e6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.280  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50bad785 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.281  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44253ec4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.282  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6fb238c7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.283  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@700983c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.284  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@768974be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.286  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b37a7b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 15:56:01.286  WARN 21696 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65bdc014 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.617  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f65ae9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.622  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@857434b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.626  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5d1ed200 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.631  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b89fa58 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.633  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b6dab14 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.635  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52b7a7d9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.637  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76c8cced (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.639  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50dbfc2b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.641  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e86f9a5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:10:51.643  WARN 21696 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51e008c3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:18:56.612  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 3776 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 16:18:56.614  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 16:18:56.673  INFO 3776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 16:18:56.673  INFO 3776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 16:18:57.414  INFO 3776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 16:18:57.419  INFO 3776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 16:18:57.419  INFO 3776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 16:18:57.420  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 16:18:57.421  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 16:18:57.421  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 16:18:57.423  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 16:18:57.475  INFO 3776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 16:18:57.476  INFO 3776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2023-06-01 16:18:58.493  WARN 3776 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 16:18:58.610  WARN 3776 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 16:18:58.737  INFO 3776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 16:18:58.901  INFO 3776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 16:18:58.923  INFO 3776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 16:18:58.930  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 2.597 seconds (JVM running for 3.935)
+2023-06-01 16:21:18.057  INFO 3776 --- [http-nio-8890-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 16:21:18.057  INFO 3776 --- [http-nio-8890-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 16:21:18.062  INFO 3776 --- [http-nio-8890-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-01 16:21:18.157  INFO 3776 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 16:21:18.247  INFO 3776 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 16:30:46.390  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f1d204a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.397  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a8654d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.406  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2992d972 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.413  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@302cce5a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.414  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61e524a3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.416  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69cdecbf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.418  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@562be1bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.420  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23ab3c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.426  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@482b57a7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:30:46.428  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e05f209 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.705  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4db39e86 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.709  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@452fc837 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.712  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f0ec6d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.714  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e98361d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.716  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c4574fb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.726  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e112374 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.727  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61e6c275 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.729  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7693801e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.730  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@726e3a25 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:35:14.733  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4553bd9f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.540  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7bb4692c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.541  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38e852aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.543  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6861eb6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.545  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ea3ea43 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.547  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61ab5a8b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.548  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bac3916 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.550  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de9f77b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.551  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6cd9e177 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.552  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@571d9165 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:37:56.554  WARN 3776 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d836619 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.400  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8c54721 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.402  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bc67ee0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.403  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22dda839 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.405  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30f0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.408  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e34d50f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.416  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60d9b57 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.423  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49de67cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.424  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@513d7a97 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.425  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79095112 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:50:18.427  WARN 3776 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@13b4aa47 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:52:01.365  INFO 3776 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-01 16:52:01.366  INFO 3776 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-01 16:52:01.369  INFO 3776 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-01 16:52:07.253  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 3776 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 16:52:07.253  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 16:52:07.392  WARN 3776 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neutech.mapper]' package. Please check your configuration.
+2023-06-01 16:52:07.431  INFO 3776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 16:52:07.432  INFO 3776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 16:52:07.432  INFO 3776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 16:52:07.433  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 16:52:07.433  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 16:52:07.433  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 16:52:07.433  INFO 3776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 16:52:07.454  INFO 3776 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-01 16:52:07.454  INFO 3776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2023-06-01 16:52:07.501  INFO 3776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 16:52:07.996  INFO 3776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 16:52:08.002  INFO 3776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 16:52:08.005  INFO 3776 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 0.78 seconds (JVM running for 1993.01)
+2023-06-01 16:52:08.006  INFO 3776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-01 16:52:12.021  INFO 3776 --- [http-nio-8890-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 16:52:12.022  INFO 3776 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 16:52:12.024  INFO 3776 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-01 16:52:35.807  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 9748 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 16:52:35.809  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 16:52:35.842  INFO 9748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 16:52:35.843  INFO 9748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 16:52:36.546  INFO 9748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 16:52:36.551  INFO 9748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 16:52:36.552  INFO 9748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 16:52:36.553  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 16:52:36.553  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 16:52:36.553  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 16:52:36.555  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 16:52:36.606  INFO 9748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 16:52:36.606  INFO 9748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 763 ms
+2023-06-01 16:52:37.667  WARN 9748 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 16:52:37.762  WARN 9748 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 16:52:37.864  INFO 9748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 16:52:38.028  INFO 9748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 16:52:38.052  INFO 9748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 16:52:38.059  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 2.524 seconds (JVM running for 3.62)
+2023-06-01 16:52:51.517  INFO 9748 --- [http-nio-8890-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 16:52:51.517  INFO 9748 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 16:52:51.522  INFO 9748 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-01 16:52:51.574  INFO 9748 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 16:52:51.677  INFO 9748 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 16:58:36.171  WARN 9748 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fcfd612 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.171  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6262312 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.182  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21625aac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.182  WARN 9748 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55d22d3b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.184  WARN 9748 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1612f830 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.184  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7803bee8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.187  WARN 9748 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d3635ca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.188  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5894109d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.189  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c99065b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 16:58:36.191  WARN 9748 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42ea5b9a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:02:55.861  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4394b214 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:04:03.771  WARN 9748 --- [http-nio-8890-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@253a757c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:04:09.061  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a3aad44 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.126  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c7a38c1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.127  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4862eed0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.129  WARN 9748 --- [http-nio-8890-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@247118c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.129  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@580e7b11 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.130  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@734d84e3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.130  WARN 9748 --- [http-nio-8890-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@117c3cff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.131  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c86f034 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.131  WARN 9748 --- [http-nio-8890-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1370c827 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.132  WARN 9748 --- [http-nio-8890-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64386c5b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:06:10.132  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46b9bd66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.101  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@614d991d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.103  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38a06ed0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.103  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@127df613 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.105  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7466d4c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.107  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79ee2e25 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.107  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6096dd58 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.108  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a603752 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.110  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27509f63 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.112  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65d2b7b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:16:15.112  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@33c5487a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:21:24.519  WARN 9748 --- [http-nio-8890-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c0d42df (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.236  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fe0aa0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.237  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7677aae6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.238  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27580dcc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.240  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d6263e1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.240  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58d314c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.242  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@575a61b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.243  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58f36fb6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.245  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bcda8b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.247  WARN 9748 --- [http-nio-8890-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40085dcb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:24:37.247  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1318ded4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.544  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@67d1c851 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.545  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72f29fe8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.547  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52bfa8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.548  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1db07db4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.550  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c6651b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.558  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2eed2789 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.561  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@56abf685 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.561  WARN 9748 --- [http-nio-8890-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74caad13 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.561  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b86d408 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:28:44.562  WARN 9748 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1dbd82dc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.926  WARN 9748 --- [http-nio-8890-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38e852aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.927  WARN 9748 --- [http-nio-8890-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ea3ea43 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.929  WARN 9748 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c1fd5cb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.930  WARN 9748 --- [http-nio-8890-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61ab5a8b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.946  WARN 9748 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24cd375a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.947  WARN 9748 --- [http-nio-8890-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bac3916 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.948  WARN 9748 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@793fbadc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.948  WARN 9748 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2332833f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.951  WARN 9748 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4723b71c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:33:43.954  WARN 9748 --- [http-nio-8890-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de9f77b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:37:40.719  INFO 9748 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-01 17:37:40.720  INFO 9748 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-01 17:37:40.728  INFO 9748 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-01 17:39:04.472  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 9748 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 17:39:04.472  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 17:39:04.638  INFO 9748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 17:39:04.639  INFO 9748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:39:04.639  INFO 9748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 17:39:04.639  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 17:39:04.639  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 17:39:04.639  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 17:39:04.640  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 17:39:04.653  INFO 9748 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:39:04.654  INFO 9748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2023-06-01 17:39:04.660  WARN 9748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'producteService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.neutech.service.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-06-01 17:39:04.661  INFO 9748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-01 17:39:04.664  INFO 9748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-01 17:39:04.666 ERROR 9748 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field producteService in com.neutech.controller.ProductController required a bean of type 'com.neutech.service.ProductService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.neutech.service.ProductService' in your configuration.
+
+2023-06-01 17:41:52.488  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 9748 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 17:41:52.488  INFO 9748 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 17:41:52.664  INFO 9748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 17:41:52.665  INFO 9748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 17:41:52.677  INFO 9748 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:41:52.677  INFO 9748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 187 ms
+2023-06-01 17:41:52.684  WARN 9748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'producteService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.neutech.service.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-06-01 17:41:52.685  INFO 9748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-01 17:41:52.688  INFO 9748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-01 17:41:52.689 ERROR 9748 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field producteService in com.neutech.controller.ProductController required a bean of type 'com.neutech.service.ProductService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.neutech.service.ProductService' in your configuration.
+
+2023-06-01 17:42:38.423  INFO 5544 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 5544 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 17:42:38.427  INFO 5544 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 17:42:38.470  INFO 5544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 17:42:38.470  INFO 5544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 17:42:39.199  INFO 5544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 17:42:39.205  INFO 5544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:42:39.205  INFO 5544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 17:42:39.206  INFO 5544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 17:42:39.206  INFO 5544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 17:42:39.206  INFO 5544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 17:42:39.208  INFO 5544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 17:42:39.257  INFO 5544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:42:39.258  INFO 5544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 787 ms
+2023-06-01 17:42:40.294  WARN 5544 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 17:42:40.389  WARN 5544 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 17:42:40.483  INFO 5544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 17:42:40.650  INFO 5544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 17:42:40.674  INFO 5544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 17:42:40.682  INFO 5544 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 2.536 seconds (JVM running for 3.68)
+2023-06-01 17:42:44.761  INFO 5544 --- [http-nio-8890-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 17:42:44.762  INFO 5544 --- [http-nio-8890-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 17:42:44.768  INFO 5544 --- [http-nio-8890-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-01 17:42:44.839  INFO 5544 --- [http-nio-8890-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 17:42:44.961  INFO 5544 --- [http-nio-8890-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01 17:46:08.980  WARN 5544 --- [http-nio-8890-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71674dca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.254  WARN 5544 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a37b1f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.255  WARN 5544 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41315c29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.256  WARN 5544 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@678fb8d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.259  WARN 5544 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ade4392 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.259  WARN 5544 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60287a4c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.260  WARN 5544 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4201f946 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.261  WARN 5544 --- [http-nio-8890-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b925110 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.261  WARN 5544 --- [http-nio-8890-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77ba8b63 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.261  WARN 5544 --- [http-nio-8890-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15c2c774 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:48:13.262  WARN 5544 --- [http-nio-8890-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3adf1c66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-06-01 17:53:46.911  INFO 21432 --- [restartedMain] com.neutech.ShopBootStater               : Starting ShopBootStater on LAPTOP-PAN129AT with PID 21432 (D:\天津师范大学\code\MyGitRepository\onlineRetailer\target\classes started by 11733 in D:\天津师范大学\code\MyGitRepository\onlineRetailer)
+2023-06-01 17:53:46.914  INFO 21432 --- [restartedMain] com.neutech.ShopBootStater               : No active profile set, falling back to default profiles: default
+2023-06-01 17:53:46.962  INFO 21432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 17:53:46.962  INFO 21432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 17:53:47.724  INFO 21432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2023-06-01 17:53:47.730  INFO 21432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:53:47.730  INFO 21432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-01 17:53:47.731  INFO 21432 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-01 17:53:47.731  INFO 21432 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-01 17:53:47.732  INFO 21432 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-01 17:53:47.734  INFO 21432 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-01 17:53:47.785  INFO 21432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:53:47.785  INFO 21432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 822 ms
+2023-06-01 17:53:48.824  WARN 21432 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.Product".
+2023-06-01 17:53:48.921  WARN 21432 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.neutech.entity.ProductType".
+2023-06-01 17:53:49.018  INFO 21432 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 17:53:49.190  INFO 21432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 17:53:49.216  INFO 21432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2023-06-01 17:53:49.225  INFO 21432 --- [restartedMain] com.neutech.ShopBootStater               : Started ShopBootStater in 2.607 seconds (JVM running for 3.858)
+2023-06-01 17:54:05.973  INFO 21432 --- [http-nio-8890-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 17:54:05.973  INFO 21432 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-01 17:54:05.977  INFO 21432 --- [http-nio-8890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-06-01 17:54:06.050  INFO 21432 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01 17:54:06.147  INFO 21432 --- [http-nio-8890-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
